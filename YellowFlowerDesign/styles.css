@@ -1,0 +1,113 @@
+/*set background*/
+html{                  
+    background-color:#FCFBEE;  
+    background-image:url(background.png);
+    background-repeat:repeat-x;
+    
+}
+body{ 
+    width:940px;      
+    margin:0 auto; 
+    font-family:"Times New Roman", Times, serif;
+}
+
+#header-container{ 
+    width:900px;   
+    margin:0 auto;    
+}
+#nav-container{ 
+    width:940px;       /*using background image dimensions*/
+    margin:0;
+    background-color:white;    
+}
+#main-container{ 
+    width:900px;       
+    margin:0 auto 65px;
+    background-color:white;    
+}
+header{
+    background-image:url(main.jpg);
+    width:900px;       /*image dimensions */
+    height:353px;
+}
+/*menu logic */
+nav{
+    background-image: url(menu.png);
+    width:940px;       /*image dimensions */
+    height:69px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+li{
+    float:left;
+    margin: 15px auto;
+}
+li a {
+    display:inline;
+/*    color:#3C3600;*/
+    color:rgb(60,54,0);
+    text-align: center;
+    margin: auto 0 auto 87px;
+    padding: auto 20px;
+    font-weight:bold;
+    font-size:1.1em;
+}
+a{
+ text-decoration:none;
+}
+article{
+    clear:both;
+    padding:0 0 0 15px;
+    margin: 0;
+}
+a:hover{
+/*    color:#CED2DB;*/
+    color:#E5CC00;;
+}
+h1,h2,h3{
+    margin:0px;        /*overwrite inherited margins */
+}
+h1{ /*overwrite inherited font size*/
+    font-size:27px;    
+} 
+h2{
+    font-size:20.5px;  /*overwrite inherited font size*/
+}
+h3{
+    font-size:1.4em;    
+} 
+h4{
+    margin-top:1.6em;    /*overwrite inherited margins*/
+    margin-bottom:0;
+    font-size:1.2em;
+}
+.links{
+    color:#E5CC00;
+    font-weight:bold;
+}
+.startpar{
+    margin-top:4px;
+}
+#head{
+    float:right;
+    margin:220px 120px 20px 0px;
+    padding:0px 0px 0px 0px;
+}
+#yellow1{
+    color:#AC9800;
+}
+#flower{
+    color:#F3D861;
+}
+#author{
+    color:#776A00;
+}
+#foot{
+    text-align:center;
+    padding:5px;
+    margin:30px;
+}

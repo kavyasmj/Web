@@ -1,0 +1,61 @@
+html{                  
+    background-color:whitesmoke;  
+    height: 100%;
+    width: 100%;
+}
+
+body{ 
+    width: 36%;
+    color: #38404f;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    font-family:"Calibri", Times, serif;
+}
+#head{
+    margin:10px 0px 10px 0px;
+}
+#img1{
+    width:100%;
+}
+#img2{
+    width:10%;
+}
+#img3{
+    width:100%;
+}
+#p1{
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    font-weight:400;
+    font-size: 25px;
+    padding: 10px;
+}
+#main-container{ 
+    text-align: center
+}
+#p2{
+    margin:20px 40px 20px 40px;
+    font-size: 18px;
+    padding: 10px;                          
+}
+#main-container{ 
+    background-color:white;    
+}
+#b{
+    padding-bottom: 40px;
+}
+button{
+    background-color: #154696;
+    color: white;
+    width: 200px; 
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0 auto; 
+}
+.footer{
+    font-size: 14px;
+    padding: 0px 10px 0px 40px;
+ color: darkgrey;
+}
